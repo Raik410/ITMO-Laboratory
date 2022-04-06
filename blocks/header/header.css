@@ -1,6 +1,9 @@
 .header {
+  width: 100%;
   background-color: #000D26;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0 165px;
+  box-sizing: border-box;
 }

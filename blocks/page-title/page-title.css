@@ -1,0 +1,10 @@
+.page-title {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/Background\ image.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: row-reverse;
+}

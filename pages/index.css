@@ -5,3 +5,10 @@
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__menu/header__menu.css);
 @import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/page-title/page-title.css);
+@import url(../blocks/page-title/__content/page-title__content.css);
+@import url(../blocks/page-title/__title/page-title__title.css);
+@import url(../blocks/page-title/__title-span/page-title__title-span.css);
+@import url(../blocks/page-title/__subtitle/page-title__subtitle.css);
+@import url(../blocks/page-title/__button/page-title__button.css);
+@import url();
