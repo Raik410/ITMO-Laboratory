@@ -1,0 +1,14 @@
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  line-height: 19px;
+  width: 100px;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+.header__link:hover {
+  border-bottom: 2px solid blue;
+}
