@@ -51,3 +51,35 @@ const dataAbout = [
   }
 ]
 
+class Card {
+  constructor(data) {
+    this._data = data.data;
+    this._title = data.title;
+    this._information = data.information;
+  }
+
+  _getTemplate() {
+    const cardElement = document
+    .querySelector('.template')
+    .content
+    .querySelector('.splider-about__item').cloneNode(true);
+
+    return cardElement;
+  }
+
+  generatCard() {
+    this._card = this._getTemplate();
+
+    this._card.querySelector('.splider-about__card-date').textContent = this._data;
+    this._card.querySelector('.splider-about__card-title').textContent = this._title;
+    this._card.querySelector('.splider-about__card-information').textContent = this._information;
+
+    return this._card;
+  }
+}
+
+dataAbout.forEach((data) => {
+  const card = new Card(data);
+  const cardElem = card.generatCard();
+  document.querySelector('.splide__list').append(cardElem);
+})
